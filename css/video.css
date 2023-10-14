@@ -1,0 +1,257 @@
+/*----- Reset page ------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*---- global styling ----*/
+body {
+  font-family: "Lato", sans-serif;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+/* navbar styling */
+header ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 1rem;
+}
+header ul li a i {
+  font-size: 1.2rem;
+  color: black;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+}
+header ul li a i:hover {
+  background-color: rgb(237, 231, 231);
+}
+header ul li .user i {
+  color: #ecf1f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(34, 59, 59);
+}
+sup {
+  font-size: 0.8rem;
+  color: gray;
+  padding-left: 0.4rem;
+}
+
+header a {
+  text-decoration: none;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.2rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.logo a i {
+  color: rgb(253, 126, 126);
+  font-size: 1.5rem;
+}
+.logo a {
+  color: black;
+  font-weight: 700;
+}
+
+.icon i {
+  color: rgb(62, 61, 61);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.icon i:hover {
+  background-color: rgb(237, 231, 231);
+}
+.search-bar form input {
+  border: none;
+  margin-left: 0.5rem;
+}
+.search-container {
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(151, 150, 150);
+  width: 620px;
+  height: 40px;
+  overflow: hidden;
+}
+.search-bar i {
+  margin-left: 1rem;
+}
+.search-bar form input:focus {
+  outline: none;
+}
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-icon {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  padding-right: 2.5rem;
+  padding-left: 1.5rem;
+  background: #faf9f9;
+  overflow: hidden;
+  border-left: 1px solid gray;
+  color: rgb(53, 52, 52);
+
+}
+
+/* videos section styling */
+.videos-container {
+  width: 85%;
+  margin: 4rem auto;
+}
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-container ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 0.5rem 0 0.5rem;
+}
+.info-container ul button {
+  border-radius: 15px;
+  width: fit-content;
+  height: fit-content;
+  padding-right: 1.2rem;
+  border-style: none;
+  cursor: pointer;
+}
+.info button {
+  margin-left: 2.5rem;
+  border-radius: 10px;
+  padding: 0.5rem 0.8rem;
+  color: white;
+  background-color: rgb(19, 19, 19);
+  border-style: none;
+  cursor: pointer;
+}
+
+.info-container ul button i {
+  padding: 0.5rem 0 0.5rem 1.2rem;
+}
+
+.videos-container .columns {
+  display: flex;
+  gap: 1rem;
+}
+.videos-container .columns .main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.videos-container .columns h3 {
+  font-size: 1.4rem;
+}
+.videos-container .columns .inside a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+}
+
+.videos-container .columns .main .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+.info .page {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.info img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.info .inside p {
+  color: rgb(159, 158, 158);
+}
+.videos-container video {
+  width: 900px;
+  border-radius: 10px;
+}
+
+.main .video-description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: #e5e5e5;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+.comment {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.comment i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(34, 59, 59);
+  color: #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.comment input {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 100%;
+}
+.box .image-container img {
+  width: 160px;
+  border-radius: 8%;
+}
+
+.box {
+  display: flex;
+  gap: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.box .column {
+  display: flex;
+  flex-direction: column;
+}
+.box a {
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+}
+.box .page-name a {
+  font-size: 0.8rem;
+  color: rgb(134, 132, 132);
+}
